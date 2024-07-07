@@ -15,10 +15,13 @@ body {
 
 #current-weather, #forecast {
     margin-top: 20px;
+    display: flex;
 }
 
 .weather-card {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 120px;
     margin: 10px;
     padding: 10px;
@@ -29,7 +32,6 @@ body {
 .forecast-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 .weather-card header {
     margin: 0;
