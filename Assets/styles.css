@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #65cff0;
     color: #333;
 }
 
@@ -42,4 +42,10 @@ body {
 .weather-card p {
     margin: 5px 0;
     padding: 10px;
+}
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
